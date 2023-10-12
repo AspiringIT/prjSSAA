@@ -4,13 +4,9 @@
 * Create a class with a method that accepts a charge account number as its argument. 
 The method should determine whether the number is valid by comparing it to the following list of valid charge account numbers:
 
-5658845 4520125 8080152 4562555 1005231 6545231
-
-7895122 8777541 5552012 5050552 3852085 7576651
-
-8451277 7825877 7881200
-
-1302850 1250255 4581002
+5658845, 4520125, 7895122, 8777541, 8451277, 1302850,<br>
+8080152, 4562555, 5552012, 5050552, 7825877, 1250255,<br>
+1005231, 6545231, 3852085, 7576651, 7881200, 4581002 <br>
 
 
 
