@@ -1,5 +1,5 @@
 public class IntSelectionSorter {
-
+//Unused code used to sort the entire array
     public static void selectionSort(int []AccountNumbers){
         int startscan = 0;
         int index = 0;
