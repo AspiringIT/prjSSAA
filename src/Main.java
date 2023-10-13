@@ -17,6 +17,8 @@ public class Main {
 
     static JFrame window;
 
+    protected static int requestedNum;
+
     public Main() {
     }
     //Array of account numbers
@@ -43,7 +45,7 @@ public class Main {
 
         Scanner keyboard = new Scanner(System.in);//creates scanner called keyboard to get user input
         System.out.println("Enter a charge account number");
-        int requestedNum = keyboard.nextInt();//gets the user input
+         requestedNum = keyboard.nextInt();//gets the user input
 
         boolean NumisValid = isVaild.isValidAccount(requestedNum);//This calls isvalid account method in isValid class
 
@@ -69,6 +71,8 @@ public class Main {
         checkerButton.addActionListener(event -> {
             //do whatever should happen when the button is clicked...
             System.out.println("The button was clicked");
+            int i = Integer.parseInt(checkNumText.getText());
+            requestedNum = i;
 
             JDialog d = new JDialog(window, "dialog Box");
 

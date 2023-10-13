@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728861da-042d-492d-8261-43434ed73b77" name="Changes" comment="Working test to check if number is valid and removed printing out entire array may but it back not decided yet">
+    <list default="true" id="728861da-042d-492d-8261-43434ed73b77" name="Changes" comment="Added a JFrame window and titled frame frame and added an anonomys innrer class as an action listener and added a dialog box that is intended to display result eventually">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -102,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697158963336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a JFrame window and titled frame frame and added an anonomys innrer class as an action listener and added a dialog box that is intended to display result eventually">
+      <option name="closed" value="true" />
+      <created>1697209232112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697209232112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,17 +131,7 @@
     <MESSAGE value="Added new sort class and a for loop that prints the original order and reorderd README.md have working sort algorithum but now need to look for value based on user input not just sorting the array in ascending order" />
     <MESSAGE value="Push" />
     <MESSAGE value="Working test to check if number is valid and removed printing out entire array may but it back not decided yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working test to check if number is valid and removed printing out entire array may but it back not decided yet" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added a JFrame window and titled frame frame and added an anonomys innrer class as an action listener and added a dialog box that is intended to display result eventually" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a JFrame window and titled frame frame and added an anonomys innrer class as an action listener and added a dialog box that is intended to display result eventually" />
   </component>
 </project>
