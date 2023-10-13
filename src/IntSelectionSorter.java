@@ -11,7 +11,7 @@ public class IntSelectionSorter {
             minindex = startscan;
             minvalue = AccountNumbers[startscan];
 
-            for (index = startscan+1; index<AccountNumbers.length; index++){
+            for (index = startscan + 1; index <AccountNumbers.length; index++){
                 if(AccountNumbers[index]<minvalue)
                 {
                     minvalue = AccountNumbers[index];
