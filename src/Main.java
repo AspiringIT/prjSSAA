@@ -1,5 +1,8 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Scanner;
 import javax.swing.*;
+import java.awt.*;
 
 public class Main {
     //
@@ -8,9 +11,11 @@ public class Main {
             8080152, 4562555, 5552012, 5050552, 7825877, 1250255,
             1005231, 6545231, 3852085, 7576651, 7881200, 4581002};
     public static JPanel panel;
-   public  JLabel messageLabel;
-    public JButton checkerButton;
-    private JTextField checkNumText;
+   public static JLabel messageLabel;
+    public static JButton checkerButton;
+    private static JTextField checkNumText;
+
+    static JFrame window;
 
     public Main() {
     }
@@ -19,9 +24,9 @@ public class Main {
     public static void main(String[] args) {
 
         final int WINDOW_WIDTH = 450; // Window width in pixels final int
-        final int WINDOW_HEIGHT = 350; // Window height in pixels
+        final int WINDOW_HEIGHT = 150; // Window height in pixels
+         window = new JFrame("frame");
         // Create a window.
-        JFrame window = new JFrame();
         // Set the title.
         window.setTitle("Look up Account Number");
         // Set the size of the window.
@@ -32,7 +37,7 @@ public class Main {
         // Build the panel and add it to the frame.
         buildPanel();
         // Add the panel to the frame's content pane.
-        add(panel);
+       window.add(panel);
         // Display the window.
         window.setVisible(true);
 
@@ -61,6 +66,27 @@ public class Main {
         panel.add(messageLabel);
         panel.add(checkNumText);
         panel.add(checkerButton);
+        checkerButton.addActionListener(event -> {
+            //do whatever should happen when the button is clicked...
+            System.out.println("The button was clicked");
+
+            JDialog d = new JDialog(window, "dialog Box");
+
+            // create a label
+            JLabel l = new JLabel("this is a dialog box");
+
+            d.add(l);
+
+            // setsize of dialog
+            d.setSize(250, 150);
+
+            // set visibility of dialog
+            d.setVisible(true);
+
+
+        });
+    }
+
+
 
     }
-}
