@@ -10,12 +10,12 @@ public class Main {
             5658845, 4520125, 7895122, 8777541, 8451277, 1302850,
             8080152, 4562555, 5552012, 5050552, 7825877, 1250255,
             1005231, 6545231, 3852085, 7576651, 7881200, 4581002};
-    public static JPanel panel;
+   /* public static JPanel panel;
    public static JLabel messageLabel;
     public static JButton checkerButton;
     private static JTextField checkNumText;
 
-    static JFrame window;
+    static JFrame window; */
 
     protected static int requestedNum;
 
@@ -25,7 +25,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        final int WINDOW_WIDTH = 450; // Window width in pixels final int
+       /* final int WINDOW_WIDTH = 450; // Window width in pixels final int
         final int WINDOW_HEIGHT = 150; // Window height in pixels
          window = new JFrame("frame");
         // Create a window.
@@ -34,14 +34,14 @@ public class Main {
         // Set the size of the window.
         window.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
         // Specify what happens when the close button is clicked.
-        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);*/
 
         // Build the panel and add it to the frame.
-        buildPanel();
+      //  buildPanel();
         // Add the panel to the frame's content pane.
-       window.add(panel);
+       //window.add(panel);
         // Display the window.
-        window.setVisible(true);
+      //  window.setVisible(true);
 
         Scanner keyboard = new Scanner(System.in);//creates scanner called keyboard to get user input
         System.out.println("Enter a charge account number");
@@ -58,7 +58,7 @@ public class Main {
 
     }
 
-    private static void buildPanel() {
+   /* private static void buildPanel() {
 // Create a label to display instructions.
         messageLabel = new JLabel("Enter an account number ");
         checkNumText = new JTextField(10);
@@ -88,9 +88,9 @@ public class Main {
             d.setVisible(true);
 
 
-        });
+        }); */
     }
 
 
 
-    }
+
